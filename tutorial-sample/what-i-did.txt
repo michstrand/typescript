@@ -1,0 +1,37 @@
+// PART 25
+
+// npm init 
+// using default settings
+// result: package.json is created
+
+// tsc --init 
+// get typescript configuration file: tsconfig.json
+
+// create folder /src
+// create folder /out
+// update tsconfig.json: "rootDir": "./src", "outDir": "./out",
+
+// under /src: create a file: index.ts
+
+// in package.json inder scripts - add "tsc && node out/index.js",
+
+// run npm start
+
+// RESULT: App starts and echoes "hello index"            # application is bootstrapped
+
+// npm install request lodash --save                    # to add external libraries (dependencies)
+//                                                      # and install lodash library (dependencies)
+
+// npm install @types/lodash @types/request --save-dev  # to install type definitions for lodash and request
+
+
+// create ts-files: user.ts & repo.ts, GitHubApiService.ts
+// index.ts                                             # create an instance of service
+
+// create callback since get-call is async
+
+// import lodash in index.ts                            # see lodash documentation on lodash.com/docs
+// use sort and filter functions in lodash to manipulate repos array             
+
+
+// https://api.github.com/users/koushikkothagal/repos   # access github
